@@ -1,0 +1,291 @@
+---
+title: "tester"
+author: 
+  - "kaleigh"
+  - "DO NOT DISTURB"
+date: "6/3/2019"
+output:
+  html_document:
+    toc: yes
+    number_sections: yes
+  pdf_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, eval=FALSE)
+```
+
+```{r, include=FALSE}
+options(tinytex.verbose = TRUE)
+```
+
+# R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars, eval=TRUE}
+summary(cars)
+```
+
+
+# Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, eval=TRUE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot. eval=FALSE means no result printed.
+
+
+# Less is More
+
+There are `r nrow(iris)` and `r ncol(iris)` columns of iris data set.
+
+The **dim** of _iris_ is `r dim(iris)`.
+
+
+# Embed YouTube video
+
+Using iframe to embed.
+
+## Review.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_LpAAPBNtaI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## 2nd video.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UCSSddh8N5U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## 3rd video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qaE6xyxIMM4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## 4th video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NWCMefYuTh8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## 5th video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6hn3znbkTzE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# Singapore map
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1021124.3642005874!2d103.28377699627542!3d1.315310529188333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da11238a8b9375%3A0x887869cf52abf5c4!2sSingapore!5e0!3m2!1sen!2ssg!4v1559541670833!5m2!1sen!2ssg" width="600" height="450" frameborder="5" style="border:4" allowfullscreen></iframe>
+
+
+# This is the first level of Header
+hihi
+
+```{r header}
+# This is the first level of Header
+## This is the second level of Header
+### This is the third level of Header
+```
+
+## This is the second level of Header
+go away
+
+### This is the third level of Header
+byebye
+
+
+# Comment
+`<!--this is a comment. this is not a drill-->`      
+No comment.
+
+
+# Emphasis
+
+Source code:
+
+`*italic 1*`    `**bold 1**`
+`_italic 2_`     `__bold 2__`
+
+Knit Output: *italic 1*  **bold 1** _italic 2_ __bold 2__
+
+Use `dim()` to return the *number of rows* and __the number of columns__.
+
+
+# Sub/Superscript & Strikethrough
+
+superscript:  
+`A^2^`
+A^2^  
+subscript:  
+`A~2~`
+A~2~   
+strikethrough:        
+`~~Hi,something is wrong here. Please delete me~~`
+~~Hi,something is wrong here. Please delete me~~
+
+
+# Line breaks  
+Use two spacing. 
+
+
+# List 
+## Unordered
+* List 1
+  + List 1a
+  + List 1b
+* List 2
+* List 3
+  + List 3a
+  + List 3b
+    - List 3(bi)
+    
+``` {r list} 
+* List 1   
+  + List 1a   
+  + List 1b   
+* List 2   
+* List 3    
+  + List 3a    
+  + List 3b    
+    - List 3(bi)
+```
+
+## Ordered 
+1. List 1
+1. List 2
+    + List a
+1. List 3 <!-- list number will get autocorrected-->
+5. List 4
+
+# Hyperlink   
+https://github.com/kkfyuen/SMAH2018Guide
+
+## Link to a phrase
+`Introduction and Tutorial Guide on SUSS-Microsoft Analytics Hackathon 2018: [click](https://github.com/kkfyuen/SMAH2018Guide)`     
+Introduction and Tutorial Guide on SUSS-Microsoft Analytics Hackathon 2018: [click](https://github.com/kkfyuen/SMAH2018Guide)
+
+`[Introduction and Tutorial Guide on SUSS-Microsoft Analytics Hackathon 2018](https://github.com/kkfyuen/SMAH2018Guide)`     
+`<!-- cannot have a space between the phrase and the link-->`         
+[Introduction and Tutorial Guide on SUSS-Microsoft Analytics Hackathon 2018](https://github.com/kkfyuen/SMAH2018Guide) <!-- cannot have a space between the phrase and the link-->
+
+# Embedding an image     
+## from web           
+![](https://www.hdwallpaper.nu/wp-content/uploads/2015/05/life_quotes.jpg)
+
+## local image
+![](./Lion.png)
+
+# Reference styles
+
+Please refer to    
+![Quote][Quote of the day]      
+Insert the reference at the end of the RMD document.
+
+[Quote of the day]: https://www.hdwallpaper.nu/wp-content/uploads/2015/05/life_quotes.jpg
+
+# Blockquotes
+
+good words.
+
+> Hello.    
+> - Albert Einstein (1920)
+
+
+# Table
+
+Table Header 1 | Table Header ... | Table header n |
+:------------- | :---------------:| --------------:|
+Table Cell 1  | Table Cell 1 ..  | Table Cell 1n  |
+Table Cell ... | Table Cell ... | Table Cell ... |
+Table Cell 1m  | Table Cell ... | Table Cell mn  |
+
+Notation | Explanation | 
+:------------- | :--------------- | 
+-  | Minus can be unary or binary |
++ | Plus, can be unary or binary |
+!  | Unary not | 
+~ | Tilde, used for model formulae, can be either unary or binary |
+\| | Or, binary, vectorised |
+\|\| | Or, binary, not vectorised |
+
+# Equations
+
+The mass-energy equivalence equation is $E=mc^2$ (Inline Equation). Alternatively, the equation is displayed in a new line. 
+$$E=mc^2$$
+
+## Matrix
+
+```{r code1}
+$$[
+\begin{matrix}
+1 & 2\\
+3 & 4
+\end{matrix}
+]$$
+```
+
+$$[
+\begin{matrix}
+1 & 2\\
+3 & 4
+\end{matrix}
+]$$
+
+or
+
+``` {r code2}
+$$\left[
+\begin{matrix}
+1 & 2\\
+3 & 4
+\end{matrix}
+\right]$$
+```
+
+$$\left[
+\begin{matrix}
+1 & 2\\
+3 & 4
+\end{matrix}
+\right]$$
+
+## Fraction
+
+`f(y) = {{y - 1} \over {y + 2}}`
+$$f(y) = {{y - 1}\over{y + 2}}$$
+
+`\Delta = {{- b \pm \sqrt {{b^2} - 4ac} } \over {2a}}`
+$$\Delta = {{- b \pm \sqrt {{b^2} - 4ac} } \over {2a}}$$
+
+`c = \sqrt {{a^2} + {b^2}}`
+$$c = \sqrt {{a^2} + {b^2}}$$
+
+Sometimes, $ can be omitted.
+
+```{r equation}
+\begin{align*}
+  f(x) &= x^3+x^2+x+1\\
+  g(x) &= \frac{1}{x} + \frac{1}{y}\\
+  G(x) &= \int^a_b \frac{1}{4}x^4
+\end{align*}
+```
+
+\begin{align*}
+  f(x) &= x^3+x^2+x+1\\
+  g(x) &= \frac{1}{x} + \frac{1}{y}\\
+  G(x) &= \int^a_b \frac{1}{4}x^4
+\end{align*}
+
+------------
+
+## Exercise 1
+
+Description | Code | Notations |
+:---------- | :--- | :-------- |
+Greek letters | `\alpha \beta \epsilon` | $\alpha \beta \epsilon$ |
+Function operators | `\int \sum \prod` | $\int \sum \prod$ |
+Binary operators | `\cup \cap` | $\cup \cap$ |
+Set operators 1 | `\subset \supset` | $\subset \supset$ |
+Set operators 2 | `\subseteq \supseteq` | $\subseteq \supseteq$ |
+
+Remember the dollar sign!

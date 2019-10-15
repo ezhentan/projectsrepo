@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1567407963391.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3467557790",
+    "id" : "CC8FA16F",
+    "lastKnownWriteTime" : 1559550481,
+    "last_content_update" : 1559550481,
+    "path" : "~/Documents/SUSS/Year 1/R Bootcamp (Course 2)/Class 1/Class_1.Rmd",
+    "project_path" : null,
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
