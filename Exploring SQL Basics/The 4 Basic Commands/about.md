@@ -4,4 +4,6 @@ This file is where my SQL journey began.
 
 This file shows my first attempt at the 4 basic SQL commands - create, insert, where, delete. 
 
-![](Screenshot 2019-10-16 at 4.27.12 PM.png)
+![](https://github.com/ezhentan/schoolprojects/blob/master/Exploring%20SQL%20Basics/The%204%20Basic%20Commands/Screenshot%202019-10-16%20at%204.27.12%20PM.png)
+
+
