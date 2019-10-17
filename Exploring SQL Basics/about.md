@@ -55,7 +55,7 @@ print('----------------------------------------')
 Terminal result:
 
 
-![](https://github.com/ezhentan/schoolprojects/blob/master/Exploring%20SQL%20Basics/The%204%20Basic%20Commands/Images/DB%20Browser%204.png)
+![](https://github.com/ezhentan/schoolprojects/blob/master/Exploring%20SQL%20Basics/The%204%20Basic%20Commands/Images/Terminal%202.png)
 
 ```python    
 print('Tracks: ')
@@ -98,7 +98,7 @@ conn.commit()
 conn.close()
 ```
 The result: 
-![In DB Browser for SQLite](https://github.com/ezhentan/schoolprojects/blob/master/Exploring%20SQL%20Basics/The%204%20Basic%20Commands/Images/DB%20Browser%202.png)
+![In DB Browser for SQLite](https://github.com/ezhentan/schoolprojects/blob/master/Exploring%20SQL%20Basics/The%204%20Basic%20Commands/Images/DB%20Browser%204.png)
 
 **Tutorial followed:**
 
