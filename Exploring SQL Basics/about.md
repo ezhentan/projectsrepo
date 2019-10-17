@@ -100,7 +100,9 @@ conn.close()
 The result: 
 ![In DB Browser for SQLite](https://github.com/ezhentan/schoolprojects/blob/master/Exploring%20SQL%20Basics/The%204%20Basic%20Commands/Images/DB%20Browser%202.png)
 
-Tutorial followed: Severance, Charles (2016, July 5). Python For Everybody: Exploring Data Using Python 3. Retreived from: http://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf
+**Tutorial followed:**
+
+Severance, Charles (2016, July 5). Python For Everybody: Exploring Data Using Python 3. Retreived from: http://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf
 
 # Merging Tables
 
