@@ -38,7 +38,7 @@ for row in cur:
 print('----------------------------------------')
 ```
 
-Terminal result:
+Terminal result:  
 
 
 ![](https://github.com/ezhentan/schoolprojects/blob/master/Exploring%20SQL%20Basics/The%204%20Basic%20Commands/Images/Terminal%203.png)
@@ -52,6 +52,8 @@ print('----------------------------------------')
 ```
 
 Terminal result:
+
+
 ![](https://github.com/ezhentan/schoolprojects/blob/master/Exploring%20SQL%20Basics/The%204%20Basic%20Commands/Images/Terminal%202.png)
 
 ```python    
