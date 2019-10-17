@@ -4,8 +4,6 @@ This file is where my SQL journey began.
 
 * [The 4 Basic Commands](#The-4-Basic-Commands)
 
-<a name="The 4 Basic Commands"></a>
-
 # The 4 Basic Commands
 
 This file shows my first attempt at the 4 basic SQL commands - create, insert, where, delete. 
