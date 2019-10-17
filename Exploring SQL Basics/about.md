@@ -120,7 +120,7 @@ output = b_cur.fetchall()
 
 a_cur = db_a.cursor()
 for row in output:
-    list_row = list(row)
+    list_row = list(row) #converting to list as tuples are immutable
     list_row[0] = list_row[0] + 3
     row = (list_row)
     a_cur.execute('INSERT INTO Tracks VALUES (?, ?, ?)', row)
