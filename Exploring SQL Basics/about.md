@@ -3,6 +3,7 @@ This file is where my SQL journey began.
 # Table of Contents
 
 * [The 4 Basic Commands](#The-4-Basic-Commands)
+* [Merging Tables](#Merging-Tables)
 
 # The 4 Basic Commands
 
@@ -54,7 +55,7 @@ print('----------------------------------------')
 Terminal result:
 
 
-![](https://github.com/ezhentan/schoolprojects/blob/master/Exploring%20SQL%20Basics/The%204%20Basic%20Commands/Images/Terminal%202.png)
+![](https://github.com/ezhentan/schoolprojects/blob/master/Exploring%20SQL%20Basics/The%204%20Basic%20Commands/Images/DB%20Browser%204.png)
 
 ```python    
 print('Tracks: ')
@@ -100,3 +101,32 @@ The result:
 ![In DB Browser for SQLite](https://github.com/ezhentan/schoolprojects/blob/master/Exploring%20SQL%20Basics/The%204%20Basic%20Commands/Images/DB%20Browser%202.png)
 
 Tutorial followed: Severance, Charles (2016, July 5). Python For Everybody: Exploring Data Using Python 3. Retreived from: http://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf
+
+# Merging Tables
+
+```python
+import sqlite3
+
+db_a = sqlite3.connect('music.sqlite')
+db_b = sqlite3.connect('music_2.sqlite')
+
+b_cur = db_b.cursor()
+b_cur.execute('SELECT * FROM Blah')
+output = b_cur.fetchall()
+
+a_cur = db_a.cursor()
+for row in output:
+    list_row = list(row)
+    trackID_count = list_row[0]
+    list_row[0] = trackID_count + 3
+    row = (list_row)
+    a_cur.execute('INSERT INTO Tracks VALUES (?, ?, ?)', row)
+    
+db_a.commit()
+db_a.close()
+db_b.close()
+```
+
+Result:
+
+![](https://github.com/ezhentan/schoolprojects/blob/master/Exploring%20SQL%20Basics/The%204%20Basic%20Commands/Images/DB%20Browser%203.png)
