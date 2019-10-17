@@ -119,8 +119,7 @@ output = b_cur.fetchall()
 a_cur = db_a.cursor()
 for row in output:
     list_row = list(row)
-    trackID_count = list_row[0]
-    list_row[0] = trackID_count + 3
+    list_row[0] = list_row[0] + 3
     row = (list_row)
     a_cur.execute('INSERT INTO Tracks VALUES (?, ?, ?)', row)
     
