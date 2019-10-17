@@ -2,7 +2,7 @@ This file is where my SQL journey began.
 
 # Table of Contents
 
-* [The 4 Basic Commands](#The 4 Basic Commands)
+* [The 4 Basic Commands](#The-4-Basic-Commands)
 
 <a name="The 4 Basic Commands"></a>
 
