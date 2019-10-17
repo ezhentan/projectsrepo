@@ -25,7 +25,7 @@ cur.execute('INSERT INTO Tracks (title, plays) VALUES (?, ?)', ('All with you', 
 conn.commit() # writing out the changes to disc, write every 10th record, for e.g.
 ```
 
-This produces the following table:
+This produces the following table:  
 ![](https://github.com/ezhentan/schoolprojects/blob/master/Exploring%20SQL%20Basics/The%204%20Basic%20Commands/Images/DB%20Browser%201.png)
 
 ```python
@@ -39,6 +39,8 @@ print('----------------------------------------')
 ```
 
 Terminal result:
+
+
 ![](https://github.com/ezhentan/schoolprojects/blob/master/Exploring%20SQL%20Basics/The%204%20Basic%20Commands/Images/Terminal%203.png)
 
 ```python
