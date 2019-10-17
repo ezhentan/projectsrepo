@@ -1,4 +1,5 @@
 This file is where my SQL journey began.
+*Note: The full python files can be found in the folders with the same name as the headers in this file.*
 
 # Table of Contents
 
