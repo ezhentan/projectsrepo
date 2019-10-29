@@ -104,7 +104,7 @@ The result:
 
 **Tutorial followed:**
 
-Severance, Charles (2016, July 5). Python For Everybody: Exploring Data Using Python 3. Retreived from: http://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf
+Severance, Charles (2016, July 5). Python For Everybody: Exploring Data Using Python 3. Retrieved from: http://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf
 
 # Merging Tables
 
