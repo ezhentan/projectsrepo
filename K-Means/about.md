@@ -9,6 +9,13 @@ Exploring K-means clustering methods using IBM SPSS Modeler and R
 
 ## Overview of Churn.sav dataset
 
+```python
+import pandas as pd
+
+df = pd.read_spss("https://github.com/ezhentan/schoolprojects/blob/master/K-Means/Churn.sav")
+head(df)
+```
+
 ## Using IBM SPSS Modeler
 
 ![](https://github.com/ezhentan/schoolprojects/blob/master/K-Means/Images/SPSS%20clusters.png)
