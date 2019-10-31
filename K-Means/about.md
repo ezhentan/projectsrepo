@@ -9,7 +9,7 @@ Exploring K-means clustering methods using IBM SPSS Modeler and R
 
 ## Overview of Churn.sav dataset
 
-```python
+```python, eval = TRUE
 import pandas as pd
 
 df = pd.read_spss("https://github.com/ezhentan/schoolprojects/blob/master/K-Means/Churn.sav")
