@@ -4,8 +4,6 @@
       [
         "Orange is the new red.",
         "Oranges can be sweet and sour.",
-        "Where my orange??",
-        "orange is disgusting"
       ],
       47,
       "Mon Aug 26 23:40:44 2019"
