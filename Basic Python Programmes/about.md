@@ -2,8 +2,8 @@
 
 * [Anagram Tester](#Anagram-Tester)
 * [English Word Tester](#English-Word-Tester)
-* [Find All Anagrams](#Find-All-Anagrams)
-* [Password Strength](#Password-Strength)
+* [Find All Anagrams of a Word](#Find-All-Anagrams-of-a-Word)
+* [Password Strength Tester](#Password-Strength-Tester)
 
 # Anagram Tester
 
@@ -32,7 +32,7 @@ def eng_word(string):
             return False
 ```
 
-# Find All Anagrams
+# Find All Anagrams of a Word
 
 ```python
 def find_all_anagrams(string):
@@ -49,7 +49,7 @@ def find_all_anagrams(string):
 
 Output: a list of words that are anagrams of ```string``` 
 
-# Password Strength
+# Password Strength Tester
 
 Conditions for password strength:
 * Weak: less than 8 characters or an English word (as defined by the English Word Tester)
