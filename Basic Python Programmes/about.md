@@ -58,7 +58,7 @@ Conditions for password strength:
 
 ```python
 def password_strength(string):
-    if len(string) < 8 or is_english_word(string) == True:
+    if len(string) < 8 or eng_word(string) == True:
         strength = "WEAK"
 
     elif len(string) >= 11:
