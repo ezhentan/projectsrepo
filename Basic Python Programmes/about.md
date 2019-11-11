@@ -2,12 +2,15 @@
 
 * [Anagram Tester](#Anagram-Tester)
 * [English Word Tester](#English-Word-Tester)
+* [Find All Anagrams](#Find-All-Anagrams)
 * [Password Strength](#Password-Strength)
 
 # Anagram Tester
 
 ```python
 def isAnagram(test, original):
+    if len(test) != len(original):
+        return False
     for letter in test.lower():
         if letter not in original.lower():
             return False
@@ -20,7 +23,7 @@ def isAnagram(test, original):
 # English Word Tester
 
 ```python
-def is_english_word(string):
+def eng_word(string):
     with open('english_words.txt') as f:
         f_contents = f.read()
         if string.lower() in f_contents:
@@ -28,6 +31,23 @@ def is_english_word(string):
         else:
             return False
 ```
+
+# Find All Anagrams
+
+```python
+def find_all_anagrams(string):
+    with open('english_words.txt') as f:
+        output = []
+        words = f.read().split()
+        
+        for x in words:
+            if is_english_word(string) == True and isAnagram(x, string) == True:
+                    output.append(x)
+        output.remove(string)
+        return output
+```
+
+Output: a list of words that are anagrams of ```string``` 
 
 # Password Strength
 
