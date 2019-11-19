@@ -18,7 +18,7 @@ data = keras.datasets.fashion_mnist
 class_names = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat',
                'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
 
-#scaling values to [0,1]
+#scaling values to [0,1], both sets should be pre-processed the same way
 train_images = train_images/255.0
 test_images = test_images/255.0
 
