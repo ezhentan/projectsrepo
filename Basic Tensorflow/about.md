@@ -47,6 +47,7 @@ Terminal output:
 ![](https://github.com/ezhentan/schoolprojects/blob/master/Basic%20Tensorflow/Images/25_images.png)
 
 Sources:
+
 Tensorflow (n.d.). Basic classification: Classify images of clothing. Retrieved from: https://www.tensorflow.org/tutorials/keras/classification#import_the_fashion_mnist_dataset
 
 freeCodeCamp.org (2019, September 26). TensorFlow 2.0 Full Tutorial - Python Neural Networks for Beginners. Retrieved from: https://www.youtube.com/watch?v=6g4O5UOH304&t=3936s
