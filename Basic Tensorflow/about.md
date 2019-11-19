@@ -23,7 +23,7 @@ train_images = train_images/255.0
 test_images = test_images/255.0
 
 plt.imshow(train_images[7], cmap=plt.cm.binary)
-#cmap makes the image black and white
+#cmap binary makes the image black and white
 plt.show()
 ```
 
