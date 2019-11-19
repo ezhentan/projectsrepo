@@ -13,7 +13,6 @@ import matplotlib.pyplot as plt
 data = keras.datasets.fashion_mnist
 
 #testing and training data
-#can write in this way cuz of keras form of output
 (train_images, train_labels), (test_images, test_labels) = data.load_data()
 
 class_names = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat',
