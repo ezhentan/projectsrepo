@@ -1,4 +1,4 @@
-This file is where my SQL journey began.
+This file marks where my SQL journey began.
 
 *Note: The full .py files can be found in the folders with the same name as the headers in this file.*
 
