@@ -16,5 +16,8 @@ I am acutely aware that my solution is by no means perfect, and the accuracy is 
     
     
     * Looking at solutions after the challenge ended, I realised that I should have put the information from the matrix in a dictionary and create a list of holidays in March (as the orders in the csv are for March).
+    
+2. **Converting the epoch time using *time* and *datetime* rather than using pandas's *to_datetime* instead.**
+    * While this is not a major downfall, using *to_datetime* will reduce the number of steps in the solution.
       
       
