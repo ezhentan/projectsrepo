@@ -1,3 +1,3 @@
 # schoolprojects
 
-This repository is for my prior projects that I completed for school.
+This repository holds all of my projects that I have done.
