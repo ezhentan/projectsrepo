@@ -45,6 +45,8 @@ print(weather_wc.head())
 ![weather_wc.head()](https://github.com/ezhentan/projectsrepo/blob/master/Fun/scraping%20weather%20data/Screenshot%202020-08-18%20at%2011.00.50%20PM.png)
 
 Mean day temperature: 30.36
+
+
 Mean night temperature: 26.47
 
 # References
