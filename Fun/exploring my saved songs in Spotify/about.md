@@ -87,8 +87,8 @@ print(saved_songs_df.head())
 
 # References
 
-https://medium.com/@maxtingle/getting-started-with-spotifys-api-spotipy-197c3dc6353b
+Tingle, Max (2019, October 4). Getting Started with Spotify's API & Spotipy. *medium.com*. Retrieved from: https://medium.com/@maxtingle/getting-started-with-spotifys-api-spotipy-197c3dc6353b
 
-https://towardsdatascience.com/how-to-create-large-music-datasets-using-spotipy-40e7242cc6a6
+Hilsdorf, Max (2020, April 25). How to Create Large Music Datasets Using Spotipy. *Towards Data Science*. Retrieved from: https://towardsdatascience.com/how-to-create-large-music-datasets-using-spotipy-40e7242cc6a6
 
-https://www.promptcloud.com/blog/extracting-song-data-from-your-spotify-playlist/
+Abhisek (2020, July 31). Extracting Songs Data From Your Spotify Playlist Using Python. *Prompt Cloud*. Retrieved from: https://www.promptcloud.com/blog/extracting-song-data-from-your-spotify-playlist/
