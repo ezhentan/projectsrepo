@@ -52,9 +52,15 @@ print(weather_wc_df.head(2))
 # print(weather_wc_df.info())
 
 weather_wc_df['date'], weather_wc_df['period_'] = weather_wc_df['period'].str.split('|', 1).str
+weather_wc_df['period_'] = weather_wc_df['period_'].apply(lambda x:x.replace(' ', ''))
 print(weather_wc_df.head(2))
 
 print()
 
 weather_wc = weather_wc_df[['date', 'period_', 'temp_int', 'short_desc']]
 print(weather_wc.head())
+
+print()
+
+print(weather_wc[weather_wc['period_'] == 'Night']['temp_int'].mean())
+print(weather_wc[weather_wc['period_'] == 'Day']['temp_int'].mean())
