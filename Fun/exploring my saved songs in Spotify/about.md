@@ -13,7 +13,9 @@ from time import time
 
 import json
 import pandas as pd
+```
 
+```python
 scope = 'user-library-read'
 
 token = util.prompt_for_user_token(username, scope, client_id=client_id, 
@@ -42,7 +44,9 @@ def get_track_data(track_id):
                      'time_signature': audio[0]['time_signature']}
 
     return track_details
-    
+```
+
+```python
 if token:
     sp = spotipy.Spotify(auth=token)
     
