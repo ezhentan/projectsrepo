@@ -32,7 +32,7 @@ weather_wc = weather_wc_df[['date', 'period_', 'temp_int', 'short_desc']]
 print(weather_wc.head())
 ```
 
-<img href='https://github.com/ezhentan/projectsrepo/blob/master/Fun/scraping%20weather%20data/Screenshot%202020-08-18%20at%2011.00.50%20PM.png'></img>
+![weather_wc.head()](Screenshot 2020-08-18 at 11.00.50 PM.png)
 
 # References
 
